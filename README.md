@@ -30,13 +30,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+Map will return an array, but forEach will not.
+
 2. What is the difference between a function and a method?
+
+A method is the functioning of an object, whereas a function is not associated with an object.
 
 3. What is closure?
 
+The scope that allows nested functions to use variables of the parent function.
+
 4. Describe the four rules of the 'this' keyword.
 
+a) Window, global object binding - references the    window object (the whole perspective)
+b) Implicit Binding - references the object ahead    of the dot when a function is called
+c) New Binding - references the object created       using constructor
+d) Explicit binding - redifines this by using        apply or call methods.
+
+
+
 5. Why do we need super() in an extended class?
+
+super() creates a bridge to the 'this' items from the extended class.
 
 ## Project Set up
 
